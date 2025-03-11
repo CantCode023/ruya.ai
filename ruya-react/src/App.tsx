@@ -105,19 +105,19 @@ function App() {
         <Footer>
           <div style={{ display: 'flex', flexDirection: 'column', gap: theme.spacing.md, maxWidth: '800px', margin: '0 auto', padding: `${theme.spacing.md} 0` }}>
             <div>
-              <h3 style={{ color: theme.colors.textPrimary, marginBottom: theme.spacing.sm }}>About</h3>
-              <p style={{ color: theme.colors.textSecondary }}>
+              <h3 style={{ color: 'white', marginBottom: theme.spacing.sm }}>About</h3>
+              <p style={{ color: 'white', opacity: 0.8 }}>
                 This application uses AI to interpret dreams according to Islamic traditions, 
                 particularly drawing from the works of Ibn Sirin, a renowned Islamic dream interpreter.
               </p>
-              <p style={{ color: theme.colors.textSecondary, marginTop: theme.spacing.sm }}>
+              <p style={{ color: 'white', opacity: 0.8, marginTop: theme.spacing.sm }}>
                 The interpretations are generated using Google's Gemini AI model.
               </p>
-              <p style={{ color: theme.colors.textSecondary, marginTop: theme.spacing.sm }}>
+              <p style={{ color: 'white', opacity: 0.8, marginTop: theme.spacing.sm }}>
                 <strong>Note:</strong> This is for educational and entertainment purposes only.
               </p>
             </div>
-            <div style={{ marginTop: theme.spacing.sm }}>
+            <div style={{ marginTop: theme.spacing.sm, color: 'white', opacity: 0.7 }}>
               &copy; {new Date().getFullYear()} Islamic Dream Interpreter | Powered by Gemini AI
             </div>
           </div>

@@ -54,7 +54,7 @@ def interpret_dream(client, file, dream_text, callback=None):
             response_mime_type="text/plain",
             system_instruction=[
                 types.Part.from_text(
-                    text="You are a helpful AI Islamic dream interpreter. You are referencing Ibn Sirin's works in dream interpretation to interpret dreams."
+                text="You are a helpful AI Islamic dream interpreter. Your task is to interpret dreams based on Ibn Sirin's dream dictonary."
                 ),
             ],
         )
