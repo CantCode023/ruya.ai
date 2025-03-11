@@ -5,6 +5,8 @@
   <p>AI-powered Islamic dream interpretation based on the works of Ibn Sirin</p>
 </div>
 
+![image](https://github.com/user-attachments/assets/00893559-0919-482a-a523-6190276c6355)
+
 ## 🌙 Overview
 
 Ruya.ai is an intelligent dream interpretation tool that analyzes dreams according to Islamic traditions. Drawing from the works of Ibn Sirin, a renowned Islamic dream interpreter, the application leverages Google's Gemini AI to provide meaningful interpretations based on traditional Islamic dream analysis principles.
