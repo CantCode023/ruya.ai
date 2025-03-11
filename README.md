@@ -15,7 +15,7 @@ Ruya.ai is an intelligent dream interpretation tool that analyzes dreams accordi
 
 - **Islamic Dream Analysis**: Receive interpretations grounded in traditional Islamic sources
 - **Real-time Streaming**: Watch interpretations appear as they're being generated
-- **Modern UI**: Clean, responsive interface with a bold neobrutalism design
+- **Modern UI**: Clean, responsive interface with a sleek glassmorphism design
 - **API Access**: RESTful API endpoints for integration with other applications
 - **Markdown Support**: Interpretations support markdown formatting for better readability
 
