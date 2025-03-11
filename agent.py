@@ -4,7 +4,7 @@ from google.genai import types
 
 def initialize_client():
     """Initialize and return the Gemini client."""
-    api_key = os.environ.get("GEMINI_API_KEY", "AIzaSyDPjHwKTy9tu21iO7dn-SmfBiDNIJqMKLQ")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise ValueError("Error: GEMINI_API_KEY environment variable is not set.")
     return genai.Client(api_key=api_key)
