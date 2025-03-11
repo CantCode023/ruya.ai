@@ -38,7 +38,23 @@ Ruya.ai is an intelligent dream interpretation tool that analyzes dreams accordi
 
 - Python 3.10 or higher
 - Node.js 18 or higher
-- Google Gemini API key
+- Google Gemini API key (obtain from [Google AI Studio](https://ai.google.dev/))
+
+### Environment Setup
+
+1. **Create a `.env` file in the root directory**:
+   ```
+   GEMINI_API_KEY=your_api_key_here
+   ```
+
+2. **Alternatively, set the environment variable directly**:
+   ```bash
+   # Windows
+   set GEMINI_API_KEY=your_api_key_here
+   
+   # Linux/macOS
+   export GEMINI_API_KEY=your_api_key_here
+   ```
 
 ### Installation
 
@@ -55,12 +71,7 @@ Ruya.ai is an intelligent dream interpretation tool that analyzes dreams accordi
    pip install -r requirements.txt
    ```
 
-3. **Configure your environment variables**:
-   ```bash
-   set GEMINI_API_KEY=your_api_key_here
-   ```
-
-4. **Install and build the React frontend**:
+3. **Install and build the React frontend**:
    ```bash
    cd ruya-react
    npm install
@@ -120,6 +131,25 @@ POST /interpret-stream
 ```
 
 **Response**: Text stream of the interpretation as it's being generated
+
+## 📁 Project Structure
+
+```
+ruya.ai/
+├── app.py                 # Flask backend server
+├── agent.py               # Gemini AI integration
+├── assets/                # Reference files for dream interpretation
+│   └── file.txt           # Ibn Sirin's dream dictionary
+├── requirements.txt       # Python dependencies
+└── ruya-react/            # React frontend
+    ├── public/            # Static files
+    ├── src/               # React source code
+    │   ├── api/           # API client code
+    │   ├── components/    # React components
+    │   └── styles/        # Styling
+    ├── package.json       # Node.js dependencies
+    └── tsconfig.json      # TypeScript configuration
+```
 
 ## 🤝 Contributing
 
